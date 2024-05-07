@@ -1,0 +1,828 @@
+a {
+  text-decoration: none !important;
+}
+
+.top-section {
+  background-color: rgb(65, 36, 109);
+  height: 810px;
+}
+
+/* COMMON-SECTION */
+
+.common-grey-text {
+  color: grey;
+}
+
+.common-h1 {
+  color: white;
+}
+
+.common-p {
+  color: white;
+}
+
+.pink-btn-common-1 {
+  height: 42px;
+  width: 140px;
+  border-radius: 30px !important;
+  color: white !important;
+  background-color: #e02187 !important;
+}
+.blue-btn {
+  height: 45px;
+  width: 200px;
+  border-radius: 30px !important;
+  color: white !important;
+  background-color: #41246d !important;
+}
+
+/* =========================================== TOP-BAR-SECTION ================================= */
+
+.top-left a {
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+.top-left .fa-solid {
+  color: #e02187;
+}
+
+.top-right a {
+  padding-left: 10px;
+  color: white;
+}
+.hr-top {
+  margin-bottom: 0;
+}
+
+/* <!------------------------------------------- NAVBAR----------------------------------------------- --> */
+
+.nav-link {
+  padding-left: 20px !important;
+  color: white !important;
+  font-weight: 600 !important;
+  font-family: sans-serif !important;
+  font-size: 16px !important;
+}
+
+/* ================================================== HEADER=============================================  */
+
+.header-main-box {
+  padding-top: 100px;
+}
+
+.header-left-h1 {
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.header-span {
+  color: #e02187;
+}
+
+.header-p {
+  padding-top: 20px;
+  font-family: sans-serif !important;
+  letter-spacing: 1px;
+}
+
+.header-bg-img {
+  position: absolute;
+  height: 95% !important;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.header-front-img-girl {
+  position: absolute;
+}
+
+.header-left-box {
+  position: relative;
+  z-index: 6;
+}
+
+/* two-ring */
+.header-vector-1 {
+  position: absolute;
+  top: 220px;
+  z-index: 5;
+  opacity: 20%;
+  left: 480px;
+}
+
+/* Dotted-ring */
+.header-vector-2 {
+  position: absolute;
+  top: 100px;
+  z-index: 11;
+  opacity: 20%;
+  animation: animName 6s linear infinite;
+}
+
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.header-right-box {
+  z-index: 10;
+}
+
+/* hat */
+.header-vector-3 {
+  position: absolute;
+  top: 220px;
+  right: 50px;
+  z-index: 4;
+  opacity: 5%;
+  height: 40% !important;
+  animation: myfirst 5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes myfirst {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ================================================== SECTION-2 ( ABOUT- US )============================================= */
+
+.about-main-box {
+  margin-top: 100px !important;
+}
+
+.about-img-1 {
+  width: 524px;
+  height: 328px;
+  border-radius: 30px !important;
+}
+
+.about-skills {
+  color: #41246d;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.percentage-number {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.percentage-number.one {
+  padding-right: 20px;
+}
+
+.percentage-number.three {
+  padding-right: 30px;
+}
+
+.percentage-bar-1 {
+  background-color: #41246d;
+  height: 3px !important;
+  width: 92%;
+  border-radius: 50px !important;
+  position: relative;
+  bottom: 10px;
+}
+.percentage-bar-2 {
+  background-color: #41246d;
+  height: 3px !important;
+  width: 98%;
+  border-radius: 50px !important;
+  position: relative;
+  bottom: 10px;
+}
+.percentage-bar-3 {
+  background-color: #41246d;
+  height: 3px !important;
+  width: 90%;
+  border-radius: 50px !important;
+  position: relative;
+  bottom: 10px;
+}
+
+.about-certified-text {
+  font-weight: 600;
+  font-size: 19px;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+
+.vl {
+  border-left: 1px solid rgba(128, 128, 128, 0.212);
+  height: 120px;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+
+.about-btn {
+  height: 42px;
+  width: 180px;
+  border-radius: 30px !important;
+  color: white !important;
+  background-color: #e02187 !important;
+}
+
+.about-h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+.about-img-2 {
+  height: 524px;
+  width: 524px;
+  border-radius: 30px;
+}
+
+/* ================================================== SECTION-3 ( COURSE )=============================================  */
+
+.section-3-course {
+  height: 800px;
+}
+
+.course-h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.course-box {
+  border-radius: 30px !important;
+  height: 320px !important;
+  width: 250px !important;
+  border: 1px dotted rgb(223, 223, 223);
+}
+
+.course-img-box {
+  background-color: #f8f8f8;
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.course-img {
+  padding-top: 35px !important;
+  height: 70% !important;
+}
+.course-h3 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.course-p {
+  color: #e02187;
+  font-weight: 600;
+}
+
+.contact-course {
+  background-color: #f8f8f8;
+  border-radius: 30px !important;
+}
+.course-h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.course-form {
+  width: 205px !important;
+  height: 50px !important;
+  border-radius: 30px !important;
+  display: inline !important;
+}
+.course-form-2 {
+  width: 230px !important;
+  height: 50px !important;
+  border-radius: 30px !important;
+  display: inline !important;
+}
+.course-btn {
+  width: 190px !important;
+  height: 50px !important;
+  border-radius: 30px !important;
+  background: #e02187 !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+/* ================================================== SECTION-4 ( Most Featured Courses )=============================================  */
+
+.section-4-most-featured {
+  height: 1050px !important;
+  background-color: #f8f8f8;
+}
+
+.feature-h1 {
+  font-weight: 800;
+  font-size: 45px;
+
+  padding-top: 100px;
+}
+.feature-p {
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 30px !important;
+  border: none !important;
+}
+.card-img-top {
+  border-radius: 30px 30px 0px 0px !important;
+}
+
+.management-text {
+  background-color: #e02187;
+  width: 130px;
+  padding-left: 15px;
+  height: 35px;
+  padding-top: 5px;
+  border-radius: 30px;
+  position: absolute;
+  top: 210px;
+}
+.management-text a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.book-mark {
+  width: 40px !important;
+  height: 40px;
+  background-color: grey;
+  color: white;
+  position: relative;
+  font-size: 20px;
+  border-radius: 40px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.book-mark a {
+  color: white;
+}
+
+.feature-card-h1 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.feature-card-p-rating {
+  color: grey;
+  font-size: 14px;
+}
+
+.card-people-name {
+  font-weight: 600;
+}
+.card-student {
+  font-size: 15px;
+  font-weight: 500;
+  color: grey;
+}
+.card-enroll a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.review-img {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 40px;
+}
+
+.management-text-blue {
+  background-color: #41246d;
+  width: 100px;
+  padding-left: 18px;
+  height: 35px;
+  padding-top: 5px;
+  border-radius: 30px;
+  position: absolute;
+  top: 210px;
+}
+.management-text-blue a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.feature-btn {
+  height: 45px !important;
+  width: 200px !important;
+  border-radius: 30px !important;
+  background-color: #41246d !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+/* ================================================== SECTION-5 ( Limitless Learning )============================================= */
+
+.section-5-learning {
+  background: linear-gradient(#41246def, #41246dd8),
+    url("images/educator-img12.webp");
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+}
+
+.learning-left-box {
+  padding-top: 50px;
+}
+
+.section-5-left-h1 {
+  color: white;
+  font-weight: 700;
+}
+.section-5-left-p {
+  color: aliceblue;
+}
+.section-5-left-h6 {
+  color: white;
+}
+.check-box-span {
+  color: #e02187;
+}
+.sec-5-btn {
+  font-weight: 600 !important;
+  height: 45px !important;
+  width: 160px !important;
+}
+
+.circle-box {
+  position: relative;
+  bottom: 30px;
+}
+
+.circle-1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 300px 0px 0 0;
+  background-color: white;
+}
+.circle-2 {
+  height: 300px;
+  width: 300px;
+  border-radius: 0px 300px 0 0;
+  background: url(images/educator-img27.webp);
+  background-position: center;
+  background-size: cover;
+}
+.circle-3 {
+  height: 300px;
+  width: 300px;
+  border-radius: 0px 0px 0 300px;
+  background: url(images/educator-img28.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.circle-4 {
+  height: 300px;
+  width: 300px;
+  border-radius: 0px 0px 300px 0;
+  background-color: white;
+}
+
+.section-5-right-h4 {
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.section-5-right-h4-bottom {
+  padding-top: 80px;
+  padding-right: 50px;
+}
+
+/* ================================================== SECTION-6 ( Our Best Features )=============================================  */
+
+.section-6-best-feature {
+  height: 800px;
+}
+
+.best-feture-h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 90px;
+}
+
+.our-feature-img {
+  width: 100px;
+}
+
+.best-feture-box {
+  height: 400px;
+  width: 340px;
+  border: 1px solid rgb(223, 223, 223);
+  padding-top: 50px;
+  border-radius: 30px !important;
+}
+.best-feture-box-h3 {
+  font-weight: 700 !important;
+  font-size: 25px;
+  padding-top: 50px;
+}
+.best-feture-btn {
+  height: 50px;
+  width: 50px !important;
+  border-radius: 50px !important;
+  background-color: white;
+  box-shadow: 2px 2px 11px 12px rgb(238, 238, 238);
+
+  padding-top: 12px;
+  position: relative;
+  top: 35px;
+  left: 130px;
+}
+.best-feture-btn .fa-solid {
+  color: #e02187;
+}
+
+/* ================================================== SECTION-7 ( Best Teachers )============================================= */
+
+.section-7-teacher {
+  background-color: #f8f8f8;
+  height: 800px;
+}
+
+.teacher-h2 {
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 70px;
+}
+
+.teacher-btn {
+  height: 45px !important;
+  width: 180px !important;
+  background-color: #e02187 !important;
+  border-radius: 30px !important;
+  color: white !important;
+  font-weight: 600px !important;
+  margin-top: 70px;
+}
+
+.teacher-img-box {
+  height: 250px !important;
+  background: url(images/educator-img8.webp);
+  background-position: center;
+  background-size: cover;
+  width: 250px !important;
+  border-radius: 250px;
+  background-color: #f6f6f6;
+  border: 10px solid white;
+}
+
+.teacher-img-box-2 {
+  height: 250px !important;
+  background: url(images/educator-img10.webp);
+  background-position: center;
+  background-size: cover;
+  width: 250px !important;
+  border-radius: 250px;
+  background-color: #f6f6f6;
+  border: 10px solid white;
+}
+
+.teacher-img-box-3 {
+  height: 250px !important;
+  background: url(images/educator-img9.webp);
+  background-position: center;
+  background-size: cover;
+  width: 250px !important;
+  border-radius: 250px;
+  background-color: #f6f6f6;
+  border: 10px solid white;
+}
+
+.teacher-img-box-4 {
+  height: 250px !important;
+  background: url(images/educator-img11.webp);
+  background-position: center;
+  background-size: cover;
+  width: 250px !important;
+  border-radius: 250px;
+  background-color: #f6f6f6;
+  border: 10px solid white;
+}
+
+.teacher-name a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.teacher-subject {
+  color: #e02187;
+  font-weight: 500;
+}
+.teacher-contact .fa-brands {
+  background-color: #41246d;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+/* ================================================== SECTION-9 ( Review's From Students )============================================= */
+
+.students-h2 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.student-review-post {
+  padding: 30px;
+  padding-top: 50px !important;
+  position: relative;
+  z-index: 67;
+}
+
+.studet-box {
+  width: 530px !important;
+  height: 300px !important;
+  box-shadow: 0px 4px 58px 13px #f2f2f2;
+  border-radius: 30px !important;
+}
+
+.student-circle-img {
+  height: 20% !important;
+  position: relative;
+  bottom: 80px;
+  z-index: 66;
+  opacity: 30%;
+}
+.student-arrow-img {
+  height: 20% !important;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+}
+.student-girl-img {
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 80px !important;
+}
+.student-name {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.student-subject {
+  color: #e02187;
+  font-size: 13px;
+  font-weight: 500;
+}
+.student-btn {
+  background-color: #41246d !important;
+  height: 46px !important;
+  width: 200px !important;
+  color: white !important;
+  border-radius: 30px !important;
+  font-weight: 600 !important;
+}
+/* ================================================== SECTION-10 ( Checkout Our Blog)============================================= */
+
+.sec-10-h {
+  font-weight: 800;
+  padding-top: 100px;
+}
+.blog-card {
+  box-shadow: 2px 2px 11px 12px rgb(238, 238, 238);
+}
+
+.blog-h4 {
+  font-weight: 700 !important;
+  padding-left: 20px;
+  word-spacing: 2px !important;
+  font-size: 26px;
+  position: relative;
+  top: -20px;
+}
+.blog-p {
+  color: grey;
+  padding-left: 20px;
+  position: relative;
+  top: -20px;
+}
+.blog-subject {
+  background-color: #e02187;
+  color: white;
+  width: 110px;
+  padding: 2px;
+  padding-left: 12px;
+  font-weight: 500;
+  border-radius: 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 220px;
+  left: 190px;
+}
+.blog-subject-link {
+  text-decoration: none;
+}
+
+/* ================================================== SECTION-11 ( COMAPNY LIST )============================================= */
+
+.section-11-company-list {
+  margin-top: 100px;
+}
+
+.company-img {
+  height: 150px;
+  margin-top: 30px;
+}
+.company-box {
+  background-color: #f8f8f8;
+  height: 200px;
+}
+
+/* ================================================== SECTION-12 ( FOOTER )=============================================  */
+.footer {
+  height: 620px;
+  background-color: #41246d;
+}
+
+.footer-box {
+  height: 170px;
+  background-color: #792e73;
+  border-radius: 30px;
+  position: relative;
+  top: 100px;
+}
+
+.fotter-text {
+  padding-top: 150px;
+}
+
+.footer-box-h2 {
+  color: white;
+  font-weight: 700;
+}
+.footer-box-p {
+  color: white;
+}
+
+.footer-input {
+  width: 350px !important;
+  height: 50px !important;
+  border-radius: 30px !important;
+}
+.footer-btn {
+  background-color: #41246d !important;
+  color: white !important;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px !important;
+  font-weight: 600 !important;
+}
+.footer-input-box {
+  padding-top: 20px;
+}
+.footer-p-common {
+  color: white;
+}
+
+.footer-social-link .fa-brands {
+  border: 1px solid white;
+  color: white;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+.footer-list-bottom li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-list-bottom li {
+  list-style: none;
+  padding-top: 12px;
+  color: white;
+}
+.footer-list-heading {
+  font-weight: 700;
+  font-size: 22px;
+}
+.footer-line {
+  color: white;
+}
+
+.footer-copywrite {
+  font-size: 15px;
+  word-spacing: 2px;
+}
+.footer-terms a {
+  color: white;
+  font-size: 13px;
+}
+.v2 {
+  border-left: 1px solid white;
+}
